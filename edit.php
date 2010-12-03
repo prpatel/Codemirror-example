@@ -54,15 +54,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
 <form id="edit-form" method="post" action="">
   <div class="form-row1 text-right">
-    <input id="guardar-top" class="submit-button" type="submit" value="Guardar">
-    <input id="exit-top" class="submit-button" type="button" value="Sortir" >
+    <input id="Save-top" class="submit-button" type="submit" value="Save">
+    <input id="exit-top" class="submit-button" type="button" value="Exit" >
   </div>
   <div style="border-bottom: 2px dashed #AAA; border-top: 2px dashed #AAA">
     <textarea id="code" name="source-code" cols="120" rows="50" style=""><?php echo htmlentities(file_get_contents(FILE_NAME), ENT_COMPAT, 'UTF-8') ?></textarea><br>
   </div>
   <div class="form-row1 text-right">
-    <input id="guardar-bottom" class="submit-button" type="submit" value="Guardar">
-    <input id="exit-bottom" class="submit-button" type="button" value="Sortir" >
+    <input id="Save-bottom" class="submit-button" type="submit" value="Save">
+    <input id="exit-bottom" class="submit-button" type="button" value="Exit" >
   </div>
 </form>
 <script type="text/javascript">
