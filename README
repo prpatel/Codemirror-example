@@ -1,0 +1,21 @@
+EXAMPLE OF USE OF CODEMIRROR [1] JS LIBRARY
+
+This project is an example of how to use codemirror library as an online editor for your own html page. Be aware that editing pure HTML is a *very* dangerous option (XSS specially),
+so you should try this only on your own server, not giving access to a non trust user, YOU'RE WARNED!
+
+REQUIREMENTS
+
+  * HTTP server with PHP support (using it as a backend language, but you could use any of your taste)
+  * WebBrowser with JAVASCRIPT enabled
+
+HOW TO USE IT
+
+You sould grab a copy of the project, by cloning it to your HTTP server (you're going to need PHP interpreter). Then:
+
+  1) Point your webbrowser to index.php page
+  2) Login by clicking the top right link (root/toor)
+  3) Edit the HTML code and save it
+  4) Logout of the edit mode and you'll see your changes
+
+
+[1] http://codemirror.com/
