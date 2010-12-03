@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-  <title>Links interessants</title>
+  <title>CODE MIRROR DEMO</title>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" ></script>
   <link rel="stylesheet" type="text/css" href="css/estil.css">
   <style type="text/css">
@@ -56,7 +56,7 @@
 <div id="form-login">
   <form action="login.php" method="post">
     <fieldset>
-      <legend>Entra les credencials</legend>
+      <legend>Enter credentials</legend>
       <div id="form-error"></div>
       <div class="form-row1">
         <label for="user" class="required">Usuari:</label>
@@ -76,8 +76,9 @@
   </form>
 </div>
 <div id="lightbox">&nbsp;</div>
-<h1>Enllaços interessants relacionats amb TIC / TAC</h1>
-<h5 class="text-right"><a id="show-form" href="#">Editar</a></h5>
+<h1>CODEMIRROR DEMO</h1>
+<h5 class="text-right"><a id="show-form" href="#">Log in</a></h5>
 <?php require('element_list.php'); ?>
+<a href="http://codemirror.com">Code mirror webpage</a>
 </body>
 </html>
